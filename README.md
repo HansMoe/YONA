@@ -12,7 +12,7 @@ Run with YONA on ResNet-18
 python main.py --arch resnet18 --aug_method HFlip
 ```
 
-For calibration, see [MoCo](https://github.com/facebookresearch/moco/tree/main/detection).
+For calibration on MoCo dataset, see [MoCo](https://github.com/facebookresearch/moco/tree/main/detection).
 
 For calibration, see [PixMix](https://github.com/andyzoujm/pixmix).
 
