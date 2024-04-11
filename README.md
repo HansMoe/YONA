@@ -1,3 +1,6 @@
+# You Only Need Half: Boosting Data Augmentation using Partial Content(YONA)
+YONA cuts one image into two equal pieces, in either the height dimension or the width dimension, performs data augmentation within one piece, masks out the other piece with noises, and concatenates the two transformed pieces back together.
+
 ## Training
 The provided code is an example of applying YONA to HFlip. Other augmentations are similar. 
 
@@ -12,7 +15,7 @@ Run with YONA on ResNet-18
 python main.py --arch resnet18 --aug_method HFlip
 ```
 
-For calibration on MoCo dataset, see [MoCo](https://github.com/facebookresearch/moco/tree/main/detection).
+For contrasitve learning, see [MoCo](https://github.com/facebookresearch/moco/tree/main/detection).
 
 For calibration, see [PixMix](https://github.com/andyzoujm/pixmix).
 
