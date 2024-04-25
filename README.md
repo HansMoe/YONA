@@ -22,6 +22,8 @@ For calibration, see [PixMix](https://github.com/andyzoujm/pixmix).
 
 For corruption robustness, see [Co-Mixup](https://github.com/snu-mllab/Co-Mixup).
 
+For object detection task, see[Yolov7](https://github.com/WongKinYiu/yolov7)
+
 For Adversarial robustness, see [ICLR2018](https://github.com/ndb796/Pytorch-Adversarial-Training-CIFAR).
 
 
