@@ -1,5 +1,3 @@
-The `train_net.py` script reproduces the object detection experiments on Pascal VOC and COCO.
-
 ### Instruction
 
 1. Install [detectron2](https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md).
