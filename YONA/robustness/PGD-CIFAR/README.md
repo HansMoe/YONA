@@ -17,7 +17,6 @@
   3) 0.001 for epoch [150, 200)
 * The ResNet-18 architecture used in this repository is smaller than Madry Laboratory, but its performance is similar.
 
-### Training Methods
 
 ####  PGD Adversarial Training
 
