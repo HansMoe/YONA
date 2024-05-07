@@ -9,7 +9,7 @@ The provided code is an example of applying YONA to HFlip. Other augmentations a
 ### CIFAR
 First
 ```
-cd classification/cifar10
+cd image_classification/cifar10
 ```
 Run with YONA on ResNet-18
 ```
