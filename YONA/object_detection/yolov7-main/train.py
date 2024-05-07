@@ -172,6 +172,29 @@ def Mask_Half(x, h, w):
     return images
 
 
+def Mask_Half(x, h, w):
+    if torch.rand(1) > 0.5:
+        img1 = x[:, :, :, 0:int(w / 2)]
+        img2 = x[:, :, :, int(w / 2):w]
+        if torch.rand(1) > 0.5:
+            zero_img = torch.zeros(img1.size(0), img1.size(1), img1.size(2), img1.size(3))
+            images = torch.cat((zero_img, img2), dim=3)
+        else:
+            zero_img = torch.zeros(img2.size(0), img2.size(1), img2.size(2), img2.size(3))
+            images = torch.cat((img1, zero_img), dim=3)
+    else:
+        img1 = x[:, :, 0:int(h / 2), :]
+        img2 = x[:, :, int(h / 2):h, :]
+        if torch.rand(1) > 0.5:
+            zero_img = torch.zeros(img1.size(0), img1.size(1), img1.size(2), img1.size(3))
+            images = torch.cat((zero_img, img2), dim=2)
+        else:
+            zero_img = torch.zeros(img2.size(0), img2.size(1), img2.size(2), img2.size(3))
+            images = torch.cat((img1, zero_img), dim=2)
+
+    return images
+
+
 def train(hyp, opt, device, tb_writer=None):
     logger.info(colorstr('hyperparameters: ') + ', '.join(f'{k}={v}' for k, v in hyp.items()))
     save_dir, epochs, batch_size, total_batch_size, weights, rank, freeze = \
