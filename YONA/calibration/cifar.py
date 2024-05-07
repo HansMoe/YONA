@@ -17,7 +17,7 @@
 Supports WideResNet, ResNeXt models on CIFAR-10 and CIFAR-100 as well
 as evaluation on CIFAR-10-C and CIFAR-100-C.
 
-Example usage:
+Example usage: 
   `python cifar.py`
 """
 from __future__ import print_function
