@@ -1,3 +1,8 @@
+First
+```
+cd YONA/object_detection/yolov7-main
+```
+
 ## Single GPU training
 Train with with HFlip
 ``` shell
