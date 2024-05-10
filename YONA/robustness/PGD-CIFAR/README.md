@@ -49,3 +49,7 @@ Run with randomAug
 <pre>
 python3 pgd_adversarial_training.py ----aug_method randomAug
 </pre>
+Run with autoAug
+<pre>
+python3 pgd_adversarial_training.py ----aug_method autoAug
+</pre>
