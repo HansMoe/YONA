@@ -32,3 +32,7 @@ Run the code for calibration with autoAug
 ```
 python cifar.py --aug_method autoAug
 ```
+Run the code for calibration with randomAug
+```
+python cifar.py --aug_method randomAug
+```
