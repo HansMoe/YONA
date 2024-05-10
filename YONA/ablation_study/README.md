@@ -1,9 +1,13 @@
-## Training
-The provided code is an example of applying YONA to HFlip. Other augmentations are similar. 
+Code for ablation study. 
 
+## Training
 
 ### CIFAR
-Run with YONA on ResNet-18
+First
 ```
-python main.py --arch resnet18 --aug_method HFlip
+cd YONA/ablation_study/cifar10
+```
+Run the code for ablation study
+```
+python main.py
 ```
