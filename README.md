@@ -4,8 +4,6 @@ YONA methodically bisects an image into two equal segments along either the vert
 ![YONA示意图](https://github.com/HansMoe/YONA/blob/main/YONA.png)
 
 ## Training
-The provided code is an example of applying YONA to HFlip. Other augmentations are similar. 
-
 
 ### CIFAR10
 First
