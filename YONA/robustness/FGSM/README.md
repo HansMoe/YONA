@@ -28,7 +28,7 @@ Run the code for robustness under FGSM attack on Cutout
 python main.py --aug_method Cutout
 ```
 Run the code for robustness under FGSM attack on Grid
-``
+```
 python main.py --aug_method Grid
 ```
 Run the code for robustness under FGSM attack on randomAug
