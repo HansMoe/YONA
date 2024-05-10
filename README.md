@@ -57,5 +57,5 @@ If you use this code for your research, please consider citing:
 ```
 
 ## Contact
-If you have any problem about our code, feel free to contact
+If you have any problem about our code, feel free to contact\\
 [jthu21@mails.jlu.edu.cn](jthu21@mails.jlu.edu.cn)
