@@ -48,7 +48,7 @@ python train.py --workers 8 --device 0 --batch-size 32 --data data/coco.yaml --i
 
 ```
 
-## Multiple GPU training with HFlip
+## Multiple GPU training
 Train with HFlip
 ``` shell
 # train p5 model
