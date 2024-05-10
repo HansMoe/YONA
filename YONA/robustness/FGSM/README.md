@@ -29,11 +29,12 @@ python main.py --aug_method Erasing
 ```
 Run the code for robustness under FGSM attack on Cutout
 ```
+```
 python main.py --aug_method Cutout
 ```
 ```
 Run the code for robustness under FGSM attack on Grid
-```
+``
 python main.py --aug_method Grid
 ```
 ```
@@ -41,7 +42,7 @@ Run the code for robustness under FGSM attack on randomAug
 ```
 python main.py --aug_method randomAug
 ```
-```
+
 Run the code for robustness under FGSM attack on autoAug
 ```
 python main.py --aug_method autoAug
