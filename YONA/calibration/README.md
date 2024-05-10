@@ -28,3 +28,7 @@ Run the code for calibration with Grid
 ```
 python cifar.py --aug_method Grid
 ```
+Run the code for calibration with autoAug
+```
+python cifar.py --aug_method autoAug
+```
