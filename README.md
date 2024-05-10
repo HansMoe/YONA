@@ -6,7 +6,7 @@ YONA methodically bisects an image into two equal segments along either the vert
 The provided code is an example of applying YONA to HFlip. Other augmentations are similar. 
 
 
-### CIFAR
+### CIFAR10
 First
 ```
 cd YONA/image_classification/cifar10
