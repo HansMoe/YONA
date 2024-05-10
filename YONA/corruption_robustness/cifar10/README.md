@@ -1,13 +1,31 @@
+Code for corruption_robustness.
 ## Training
-The provided code is an example of applying YONA to HFlip. Other augmentations are similar. 
-
-
 ### CIFAR
 First
 ```
-cd corruption_robustness/cifar10
+cd YONA/corruption_robustness/cifar10
 ```
-Run with YONA on ResNet-18
+Run with YONA on HFlip
 ```
-python main.py --arch resnet18 --aug_method HFlip
+python main.py --aug_method HFlip
+```
+Run with YONA on VFlip
+```
+python main.py --aug_method VFlip
+```
+Run with YONA on Jitter
+```
+python main.py --aug_method Jitter
+```
+Run with YONA on Erasing
+```
+python main.py --aug_method Erasing
+```
+Run with YONA on Cutout
+```
+python main.py --aug_method Cutout
+```
+Run with YONA on Grid
+```
+python main.py --aug_method Grid
 ```
