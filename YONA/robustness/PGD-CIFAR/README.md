@@ -21,6 +21,31 @@
 ####  PGD Adversarial Training
 
 * This defense method was proposed by Aleksander Madry in [ICLR 2018](https://arxiv.org/pdf/1706.06083.pdf).
+Run with HFlip
 <pre>
-python3 pgd_adversarial_training.py
+python3 pgd_adversarial_training.py ----aug_method HFlip
+</pre>
+Run with VFlip
+<pre>
+python3 pgd_adversarial_training.py ----aug_method VFlip
+</pre>
+Run with Jitter
+<pre>
+python3 pgd_adversarial_training.py ----aug_method Jitter
+</pre>
+Run with Erasing
+<pre>
+python3 pgd_adversarial_training.py ----aug_method Erasing
+</pre>
+Run with Cutout
+<pre>
+python3 pgd_adversarial_training.py ----aug_method Cutout
+</pre>
+Run with Grid
+<pre>
+python3 pgd_adversarial_training.py ----aug_method Grid
+</pre>
+Run with randomAug
+<pre>
+python3 pgd_adversarial_training.py ----aug_method randomAug
 </pre>
