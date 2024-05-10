@@ -29,3 +29,11 @@ Run with YONA on Grid
 ```
 python main.py --aug_method Grid
 ```
+Run with YONA on autoAug
+```
+python main.py --aug_method autoAug
+```
+Run with YONA on randomAug
+```
+python main.py --aug_method randomAug
+```
