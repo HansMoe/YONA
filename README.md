@@ -1,5 +1,7 @@
 # You Only Need Half: Boosting Data Augmentation by Using Partial Content（YONA）
-Code release for [You Only Need Half: Boosting Data Augmentation by Using Partial Content](https://arxiv.org/abs/2405.02830):
+Code release for [You Only Need Half: Boosting Data Augmentation by Using Partial Content](https://arxiv.org/abs/2405.02830)
+
+##  The illustrations of YONA operations
 YONA methodically bisects an image into two equal segments along either the vertical or horizontal axis. Subsequently, it applies data augmentation to one segment, masks the other with noise, and finally, reassembles the two altered segments into a cohesive image.
 ![YONA示意图](https://github.com/HansMoe/YONA/blob/main/YONA.png)
 
